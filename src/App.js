@@ -6,6 +6,7 @@ import Contact from './Components/Contact/Contact';
 import FindHelp from './Components/FindHelp/FindHelp';
 import Login from './Components/Login/login';
 import Dashboard from './Components/Dashboard/Dashboard';
+import ChatBot from './Components/ChatBot/Chatbot';
 import './App.css';
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/find-help' element={<FindHelp />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/login' element={<Login />} />
+          <Route path='/chat' element={<ChatBot />} />
           <Route path='/dashboard' element={<Dashboard />} />
         </Routes>
         <Footer />
