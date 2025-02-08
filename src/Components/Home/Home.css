@@ -148,7 +148,11 @@
     }
 
     .how-it-works {
-        margin-bottom: 500px;
+        margin-bottom: 50px;
+    }
+
+    .faq-section {
+        margin-bottom: 350px;
     }
 }
 

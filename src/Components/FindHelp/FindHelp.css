@@ -70,3 +70,10 @@
 .link-direction:hover {
     color: #21619d;
 }
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 50px;
+    }
+
+}

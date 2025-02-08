@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./FindHelp.css";
 import { FaDirections } from "react-icons/fa";
 
 const CitySearch = () => {
-    const [search, setSearch] = useState("");
 
     const hospitals = [
         { name: "City Hospital", beds: 10, location: "https://maps.google.com" },
@@ -19,14 +18,6 @@ const CitySearch = () => {
 
     return (
         <div className="container">
-            <input
-                type="text"
-                placeholder="Search city..."
-                className="search-input"
-                value={search}
-                onChange={(e) => setSearch(e.target.value)}
-            />
-
             <h2 className="section-title">Hospitals</h2>
             <div className="table-container">
                 <table className="table">
